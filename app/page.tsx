@@ -49,12 +49,12 @@ export default function Component() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 font-['Comic_Sans_MS',_cursive]">
+    <div className="min-h-screen flex flex-col bg-gray-50 font-['Fredoka_One',_sans-serif]">
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
         
         body {
-          font-family: 'Comic Neue', cursive;
+          font-family: 'Fredoka One', sans-serif;
         }
         
         h1, h2, h3, h4, h5, h6 {
@@ -67,6 +67,7 @@ export default function Component() {
         
         p {
           color: #000000;
+          font-family: Arial, sans-serif;
         }
       `}</style>
       
